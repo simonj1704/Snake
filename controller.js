@@ -25,7 +25,7 @@ export default class Controller {
     tick(){
         this.numTicks++;
         
-        const run = setTimeout(this.tick.bind(this), 100)
+        const run = setTimeout(this.tick.bind(this), 300)
         
 
         console.log("updating model at tick" + this.numTicks)
